@@ -98,6 +98,7 @@ a {
     display: flex;
     gap: 40px;
     justify-content: center;
+    margin-bottom: 75px;
 }
 
 .thumb {
@@ -117,4 +118,30 @@ a {
 
 .desc {
     text-align: center;
+}
+
+.testimonial {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.thor {
+    width: 750px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+    margin: 0;
 }
