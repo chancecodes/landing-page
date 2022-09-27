@@ -45,10 +45,6 @@ a {
     flex-grow: 0;
 }
 
-/* .hero, .img, .logo, .toplinks{
-    flex: 0 1 450px;
-} */
-
 .hero {
     width: 460px;
     flex-shrink:0;
@@ -145,3 +141,37 @@ a {
     text-align: end;
     margin: 0;
 }
+
+.cta {
+    background: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 70px 150px;
+    height: 110px;
+    padding: 0 120px;
+}
+
+.call, .click2 {
+    color: #F9FAF8
+}
+
+.call {
+    font-weight: bold;
+    margin: 0;
+    font-size: large;
+}
+
+.sign {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.click2 {
+    background: #3882F6;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
