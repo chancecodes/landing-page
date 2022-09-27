@@ -18,8 +18,8 @@ body {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    height: 120px;
+    width: 120px;
 }
 
 a, .subtext {
@@ -46,8 +46,12 @@ a {
 }
 
 .hero {
+    display:flex;
+    flex-direction: column;
     width: 460px;
     flex-shrink:0;
+    justify-content: center;
+    gap: 12px;
 }
 
 .main {
@@ -74,6 +78,7 @@ a {
     align-items: center;
     background: #787b7f;
     width: 500px;
+    height: 350px;
     flex-shrink:0;
 }
 
@@ -94,6 +99,7 @@ a {
     display: flex;
     gap: 40px;
     justify-content: center;
+    align-items: flex-start;
     margin-bottom: 75px;
 }
 
@@ -102,14 +108,14 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 160px;
+    width: 210px;
 }
 
 .container {
     border-radius: 15px;
     border: 3px solid #3882F6;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .desc {
@@ -151,6 +157,7 @@ a {
     margin: 70px 150px;
     height: 110px;
     padding: 0 120px;
+    flex-grow: 0;
 }
 
 .call, .click2 {
